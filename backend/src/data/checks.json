@@ -1,0 +1,601 @@
+[
+  {
+    "id": "mucfvjxrplm5hg",
+    "siteName": "hgj,gh",
+    "input": {
+      "siteName": "hgj,gh",
+      "permissions": {
+        "camera": false,
+        "microphone": false,
+        "location": false,
+        "biometrics": true,
+        "contacts": true,
+        "sms": false,
+        "storage": true
+      },
+      "dataCollection": {
+        "name": false,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": true,
+        "deviceId": true
+      },
+      "tracking": {
+        "cookies": true,
+        "analytics": true,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "public",
+      "dataRetention": "session"
+    },
+    "result": {
+      "overallScore": 55.9,
+      "riskLevel": "Medium",
+      "categories": {
+        "permissions": {
+          "score": 58.8,
+          "weight": 25,
+          "triggered": [
+            "biometrics",
+            "contacts",
+            "storage"
+          ]
+        },
+        "dataCollection": {
+          "score": 75.8,
+          "weight": 25,
+          "triggered": [
+            "browsingHistory",
+            "deviceId"
+          ]
+        },
+        "tracking": {
+          "score": 61.1,
+          "weight": 20,
+          "triggered": [
+            "cookies",
+            "analytics"
+          ]
+        },
+        "dataSharing": {
+          "score": 0,
+          "weight": 20,
+          "selected": "public"
+        },
+        "dataRetention": {
+          "score": 100,
+          "weight": 10,
+          "selected": "session"
+        }
+      },
+      "concerns": [
+        "Biometric data access (fingerprint/face) is requested, which increases exposure if misused.",
+        "Access to your contacts list is requested, which increases exposure if misused.",
+        "Access to device storage is requested, which increases exposure if misused.",
+        "This service collects your browsing history, your device identifier.",
+        "Uses tracking cookies.",
+        "Uses third-party analytics.",
+        "Some of your data may be made public."
+      ],
+      "recommendations": [
+        "Avoid enabling biometric login unless strictly necessary; prefer a strong passphrase instead.",
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Regularly clear cookies or use private/incognito browsing for this service.",
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered."
+      ]
+    },
+    "createdAt": "2026-09-22T08:55:40.719Z"
+  },
+  {
+    "id": "mucfgk6he1pusj",
+    "siteName": "..",
+    "input": {
+      "siteName": "..",
+      "permissions": {
+        "camera": true,
+        "microphone": false,
+        "location": false,
+        "biometrics": false,
+        "contacts": false,
+        "sms": false,
+        "storage": false
+      },
+      "dataCollection": {
+        "name": false,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": true,
+        "deviceId": false
+      },
+      "tracking": {
+        "cookies": false,
+        "analytics": true,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "none",
+      "dataRetention": "unknown"
+    },
+    "result": {
+      "overallScore": 80.1,
+      "riskLevel": "Low",
+      "categories": {
+        "permissions": {
+          "score": 85.3,
+          "weight": 25,
+          "triggered": [
+            "camera"
+          ]
+        },
+        "dataCollection": {
+          "score": 84.8,
+          "weight": 25,
+          "triggered": [
+            "browsingHistory"
+          ]
+        },
+        "tracking": {
+          "score": 77.8,
+          "weight": 20,
+          "triggered": [
+            "analytics"
+          ]
+        },
+        "dataSharing": {
+          "score": 100,
+          "weight": 20,
+          "selected": "none"
+        },
+        "dataRetention": {
+          "score": 20,
+          "weight": 10,
+          "selected": "unknown"
+        }
+      },
+      "concerns": [
+        "Camera access is requested, which increases exposure if misused.",
+        "This service collects your browsing history.",
+        "Uses third-party analytics.",
+        "It's unclear how long your data is retained — treat this as a risk."
+      ],
+      "recommendations": [
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-22T08:44:01.193Z"
+  },
+  {
+    "id": "mtshu95m485ywb",
+    "siteName": "wnfe",
+    "input": {
+      "siteName": "wnfe",
+      "permissions": {
+        "camera": false,
+        "microphone": false,
+        "location": false,
+        "biometrics": false,
+        "contacts": false,
+        "sms": false,
+        "storage": true
+      },
+      "dataCollection": {
+        "name": false,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": false,
+        "deviceId": true
+      },
+      "tracking": {
+        "cookies": false,
+        "analytics": true,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "unknown",
+      "dataRetention": "unknown"
+    },
+    "result": {
+      "overallScore": 67.2,
+      "riskLevel": "Medium",
+      "categories": {
+        "permissions": {
+          "score": 94.1,
+          "weight": 25,
+          "triggered": [
+            "storage"
+          ]
+        },
+        "dataCollection": {
+          "score": 90.9,
+          "weight": 25,
+          "triggered": [
+            "deviceId"
+          ]
+        },
+        "tracking": {
+          "score": 77.8,
+          "weight": 20,
+          "triggered": [
+            "analytics"
+          ]
+        },
+        "dataSharing": {
+          "score": 16.7,
+          "weight": 20,
+          "selected": "unknown"
+        },
+        "dataRetention": {
+          "score": 20,
+          "weight": 10,
+          "selected": "unknown"
+        }
+      },
+      "concerns": [
+        "Access to device storage is requested, which increases exposure if misused.",
+        "This service collects your device identifier.",
+        "Uses third-party analytics.",
+        "It's unclear whether or how your data is shared — treat this as a risk.",
+        "It's unclear how long your data is retained — treat this as a risk."
+      ],
+      "recommendations": [
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-08T09:55:15.802Z"
+  },
+  {
+    "id": "mtshtc2ebwojek",
+    "siteName": "xyz",
+    "input": {
+      "siteName": "xyz",
+      "permissions": {
+        "camera": true,
+        "microphone": false,
+        "location": false,
+        "biometrics": false,
+        "contacts": false,
+        "sms": false,
+        "storage": false
+      },
+      "dataCollection": {
+        "name": true,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": false,
+        "deviceId": false
+      },
+      "tracking": {
+        "cookies": false,
+        "analytics": true,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "unknown",
+      "dataRetention": "indefinite"
+    },
+    "result": {
+      "overallScore": 63,
+      "riskLevel": "Medium",
+      "categories": {
+        "permissions": {
+          "score": 85.3,
+          "weight": 25,
+          "triggered": [
+            "camera"
+          ]
+        },
+        "dataCollection": {
+          "score": 90.9,
+          "weight": 25,
+          "triggered": [
+            "name"
+          ]
+        },
+        "tracking": {
+          "score": 77.8,
+          "weight": 20,
+          "triggered": [
+            "analytics"
+          ]
+        },
+        "dataSharing": {
+          "score": 16.7,
+          "weight": 20,
+          "selected": "unknown"
+        },
+        "dataRetention": {
+          "score": 0,
+          "weight": 10,
+          "selected": "indefinite"
+        }
+      },
+      "concerns": [
+        "Camera access is requested, which increases exposure if misused.",
+        "This service collects your name.",
+        "Uses third-party analytics.",
+        "It's unclear whether or how your data is shared — treat this as a risk.",
+        "Your data may be retained indefinitely, with no automatic deletion."
+      ],
+      "recommendations": [
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-08T09:54:32.918Z"
+  },
+  {
+    "id": "mtshoe8l3ci5l6",
+    "siteName": "youtube",
+    "input": {
+      "siteName": "youtube",
+      "permissions": {
+        "camera": true,
+        "microphone": false,
+        "location": false,
+        "biometrics": false,
+        "contacts": false,
+        "sms": true,
+        "storage": false
+      },
+      "dataCollection": {
+        "name": false,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": false,
+        "deviceId": true
+      },
+      "tracking": {
+        "cookies": false,
+        "analytics": true,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "unknown",
+      "dataRetention": "unknown"
+    },
+    "result": {
+      "overallScore": 62,
+      "riskLevel": "Medium",
+      "categories": {
+        "permissions": {
+          "score": 73.5,
+          "weight": 25,
+          "triggered": [
+            "camera",
+            "sms"
+          ]
+        },
+        "dataCollection": {
+          "score": 90.9,
+          "weight": 25,
+          "triggered": [
+            "deviceId"
+          ]
+        },
+        "tracking": {
+          "score": 77.8,
+          "weight": 20,
+          "triggered": [
+            "analytics"
+          ]
+        },
+        "dataSharing": {
+          "score": 16.7,
+          "weight": 20,
+          "selected": "unknown"
+        },
+        "dataRetention": {
+          "score": 20,
+          "weight": 10,
+          "selected": "unknown"
+        }
+      },
+      "concerns": [
+        "Camera access is requested, which increases exposure if misused.",
+        "Access to SMS messages is requested, which increases exposure if misused.",
+        "This service collects your device identifier.",
+        "Uses third-party analytics.",
+        "It's unclear whether or how your data is shared — treat this as a risk.",
+        "It's unclear how long your data is retained — treat this as a risk."
+      ],
+      "recommendations": [
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-08T09:50:42.453Z"
+  },
+  {
+    "id": "mtshlad7p2bzwj",
+    "siteName": "instagram",
+    "input": {
+      "siteName": "instagram",
+      "permissions": {
+        "camera": true,
+        "microphone": true,
+        "location": true,
+        "biometrics": true,
+        "contacts": false,
+        "sms": true,
+        "storage": true
+      },
+      "dataCollection": {
+        "name": true,
+        "email": true,
+        "phone": true,
+        "financial": false,
+        "health": false,
+        "browsingHistory": true,
+        "deviceId": false
+      },
+      "tracking": {
+        "cookies": true,
+        "analytics": true,
+        "adTrackers": true,
+        "fingerprinting": false
+      },
+      "dataSharing": "unknown",
+      "dataRetention": "unknown"
+    },
+    "result": {
+      "overallScore": 27.8,
+      "riskLevel": "High",
+      "categories": {
+        "permissions": {
+          "score": 11.8,
+          "weight": 25,
+          "triggered": [
+            "camera",
+            "microphone",
+            "location",
+            "biometrics",
+            "sms",
+            "storage"
+          ]
+        },
+        "dataCollection": {
+          "score": 51.5,
+          "weight": 25,
+          "triggered": [
+            "name",
+            "email",
+            "phone",
+            "browsingHistory"
+          ]
+        },
+        "tracking": {
+          "score": 33.3,
+          "weight": 20,
+          "triggered": [
+            "cookies",
+            "analytics",
+            "adTrackers"
+          ]
+        },
+        "dataSharing": {
+          "score": 16.7,
+          "weight": 20,
+          "selected": "unknown"
+        },
+        "dataRetention": {
+          "score": 20,
+          "weight": 10,
+          "selected": "unknown"
+        }
+      },
+      "concerns": [
+        "Camera access is requested, which increases exposure if misused.",
+        "Microphone access is requested, which increases exposure if misused.",
+        "Precise location access is requested, which increases exposure if misused.",
+        "Biometric data access (fingerprint/face) is requested, which increases exposure if misused.",
+        "Access to SMS messages is requested, which increases exposure if misused.",
+        "Access to device storage is requested, which increases exposure if misused.",
+        "This service collects your name, your email address, your phone number, your browsing history.",
+        "Uses tracking cookies.",
+        "Uses third-party analytics.",
+        "Uses advertising trackers.",
+        "It's unclear whether or how your data is shared — treat this as a risk.",
+        "It's unclear how long your data is retained — treat this as a risk."
+      ],
+      "recommendations": [
+        "Avoid enabling biometric login unless strictly necessary; prefer a strong passphrase instead.",
+        "Set location access to 'while using the app' rather than 'always', or deny it if not essential.",
+        "Review app permissions in your device settings and revoke any that aren't essential to core functionality.",
+        "Consider a privacy-focused browser or tracker-blocking extension to limit fingerprinting and ad tracking.",
+        "Regularly clear cookies or use private/incognito browsing for this service.",
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-08T09:48:17.467Z"
+  },
+  {
+    "id": "mtshjyklkkqwpi",
+    "siteName": "social media app",
+    "input": {
+      "siteName": "social media app",
+      "permissions": {
+        "camera": false,
+        "microphone": false,
+        "location": false,
+        "biometrics": false,
+        "contacts": false,
+        "sms": false,
+        "storage": false
+      },
+      "dataCollection": {
+        "name": false,
+        "email": false,
+        "phone": false,
+        "financial": false,
+        "health": false,
+        "browsingHistory": false,
+        "deviceId": false
+      },
+      "tracking": {
+        "cookies": false,
+        "analytics": false,
+        "adTrackers": false,
+        "fingerprinting": false
+      },
+      "dataSharing": "unknown",
+      "dataRetention": "unknown"
+    },
+    "result": {
+      "overallScore": 75.3,
+      "riskLevel": "Low",
+      "categories": {
+        "permissions": {
+          "score": 100,
+          "weight": 25,
+          "triggered": []
+        },
+        "dataCollection": {
+          "score": 100,
+          "weight": 25,
+          "triggered": []
+        },
+        "tracking": {
+          "score": 100,
+          "weight": 20,
+          "triggered": []
+        },
+        "dataSharing": {
+          "score": 16.7,
+          "weight": 20,
+          "selected": "unknown"
+        },
+        "dataRetention": {
+          "score": 20,
+          "weight": 10,
+          "selected": "unknown"
+        }
+      },
+      "concerns": [
+        "It's unclear whether or how your data is shared — treat this as a risk.",
+        "It's unclear how long your data is retained — treat this as a risk."
+      ],
+      "recommendations": [
+        "Check the service's privacy policy for an opt-out of third-party data sharing, if one is offered.",
+        "Where possible, request account/data deletion periodically rather than relying on automatic expiry."
+      ]
+    },
+    "createdAt": "2026-09-08T09:47:15.525Z"
+  }
+]
